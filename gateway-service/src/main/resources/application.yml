@@ -1,0 +1,29 @@
+# src/main/resources/application.yml  (du projet gateway)
+server:
+  port: 8888
+
+spring:
+  application:
+    name: api-gateway
+  cloud:
+    discovery:
+      enabled: false   # pas de service discovery (URIs fixes)
+    gateway:
+      routes:
+        - id: customer-service
+          uri: http://localhost:8081
+          predicates:
+            - Path=/api/customers/**
+          # filters:
+          #   - StripPrefix=1   # active SEULEMENT si ton backend attend /customers/** (sans /api)
+        - id: product-service
+          uri: http://localhost:8082
+          predicates:
+            - Path=/api/products/**
+          # filters:
+          #   - StripPrefix=1   # idem remarque ci-dessus
+
+logging:
+  level:
+    org.springframework.cloud.gateway: DEBUG
+    reactor.netty.http.client: DEBUG

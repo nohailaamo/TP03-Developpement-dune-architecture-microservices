@@ -5,15 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="587ec863-2dbf-4c4d-8994-233471ae4f3f" name="Changes" comment="TP03  Developpement dune architecture microservices">
-      <change afterPath="$PROJECT_DIR$/customer-service/src/main/java/amouhal/nouhayla/customerservice/entities/CustomerProjection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/customer-service/src/main/java/amouhal/nouhayla/customerservice/entities/CustomerProjectionEmail.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inventory-service/src/main/java/amouhal/nouhayla/inventoryservice/config/RestRepositoryConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inventory-service/src/main/java/amouhal/nouhayla/inventoryservice/entities/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inventory-service/src/main/java/amouhal/nouhayla/inventoryservice/repository/ProductRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway-service/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customer-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/customer-service/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gateway-service/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,10 +37,10 @@
     &quot;accountId&quot;: &quot;b39e5a13-b752-447b-868e-ddbff1a39432&quot;
   }
 }</component>
-  <component name="KubernetesApiPersistence"><![CDATA[{}]]></component>
-  <component name="KubernetesApiProvider"><![CDATA[{
-  "isMigrated": true
-}]]></component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 0
 }</component>
@@ -65,6 +59,7 @@
     "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "Spring Boot.CustomerServiceApplication.executor": "Run",
+    "Spring Boot.GatewayServiceApplication.executor": "Run",
     "Spring Boot.InventoryServiceApplication.executor": "Run",
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
@@ -96,7 +91,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.InventoryServiceApplication">
+  <component name="RunManager" selected="Spring Boot.GatewayServiceApplication">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="amouhal.nouhayla.Main" />
       <module name="TP03" />
@@ -154,7 +149,9 @@
       <option name="presentableId" value="Default" />
       <updated>1760969866582</updated>
       <workItem from="1760969867703" duration="807000" />
-      <workItem from="1761419765466" duration="10940000" />
+      <workItem from="1761419765466" duration="11187000" />
+      <workItem from="1761432928764" duration="59000" />
+      <workItem from="1761497824413" duration="2313000" />
     </task>
     <task id="LOCAL-00001" summary="TP03  Developpement dune architecture microservices">
       <option name="closed" value="true" />
@@ -204,7 +201,23 @@
       <option name="project" value="LOCAL" />
       <updated>1761426465568</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="TP03  Developpement dune architecture microservices">
+      <option name="closed" value="true" />
+      <created>1761432321576</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1761432321576</updated>
+    </task>
+    <task id="LOCAL-00008" summary="TP03  Developpement dune architecture microservices">
+      <option name="closed" value="true" />
+      <created>1761432343541</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1761432343541</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
